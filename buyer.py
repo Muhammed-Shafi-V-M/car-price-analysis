@@ -17,25 +17,13 @@ st.set_page_config(
 # -----------------------------------------------------
 
 st.markdown("""
-<style>
-
-.main {
-    padding-top: 1rem;
-}
-
-div[data-testid="stMetric"]{
-    background-color:white;
-    padding:15px;
-    border-radius:12px;
-    border:1px solid #E5E7EB;
-    box-shadow:0px 2px 8px rgba(0,0,0,0.05);
-}
-
-.stDataFrame{
-    border-radius:12px;
-}
-
-</style>
+    div[data-testid="stMetric"]{
+        background-color:white;
+        color:black !important;
+        padding:15px;
+        border-radius:12px;
+        border:1px solid #E5E7EB;
+    }
 """, unsafe_allow_html=True)
 
 # -----------------------------------------------------
